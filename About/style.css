@@ -1,0 +1,17 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-red {
+  grid-column: 1 / -1;
+  background-color: #ff5a5f;
+  color: white;
+  display: inline;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.bg-red:hover {
+  color: white;
+}

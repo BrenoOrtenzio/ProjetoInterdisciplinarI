@@ -5,7 +5,7 @@ html {
 
 .bg-red {
   grid-column: 1 / -1;
-  background-color: rgb(112, 36, 36);
+  background-color: #ff5a5f;
   color: white;
   display: inline;
   text-decoration: none;
@@ -44,10 +44,10 @@ header {
   width: 124px;
   display: block;
   position: absolute;
-  top: 295px;
-  right: 320px;
+  top: 50%;
+  right: 58%;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 article {
@@ -64,16 +64,81 @@ article {
 }
 
 .beneficio {
-  text-align: center;
+  text-align: start;
+  padding-left: 15px;
 }
 
 .iconeHalter {
-  width: 25px;
-  height: auto;
+  height: 40px;
+  width: auto;
   padding-bottom: 10px;
 }
 
 .beneficio h3 {
   display: inline;
   font-size: 20px;
+  justify-content: start;
+  height: 80px;
+}
+
+.sectionBeneficios {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff8f0;
+}
+
+.imagemFim {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.beneficiosTreino {
+  background-color: #fff8f0 !important;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  width: 100%;
+  font-weight: bold;
+  height: 30px;
+}
+
+.buttonLogIn {
+  width: 120px;
+  height: 40px;
+  border-color: #2a0c4e;
+  background-color: #ff5a5f;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  z-index: 10;
+  grid-column: 1 / -1;
+  position: fixed;
+  top: 93%;
+  right: calc(50% - 60px);
+}
+
+.finalSection {
+  justify-content: center;
+  grid-column: 1 / -1;
+}
+
+div ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-left: 0px;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+div ul li {
+  transition: transform 0.3s;
+}
+
+div ul li:hover {
+  transform: scale(1.1);
 }
