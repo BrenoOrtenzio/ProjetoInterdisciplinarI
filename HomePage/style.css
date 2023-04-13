@@ -1,0 +1,79 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-red {
+  grid-column: 1 / -1;
+  background-color: rgb(112, 36, 36);
+  color: white;
+  display: inline;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.bg-red:hover {
+  color: white;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+  margin: 0%, 10%, 0%, 10%;
+}
+
+header {
+  grid-column: 1 / -1;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ImagemPrincipal {
+  width: 100%;
+  display: grid;
+  max-height: 500px;
+  margin: 0%;
+  object-fit: cover;
+  position: relative;
+}
+
+.TituloImagem::after {
+  content: "CORPO EM FORMA";
+  width: 124px;
+  display: block;
+  position: absolute;
+  top: 295px;
+  right: 320px;
+  text-align: center;
+  font-size: 50px;
+}
+
+article {
+  grid-column: 1 / -1;
+  margin-top: -8px;
+}
+
+.tituloBeneficios h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.beneficio {
+  text-align: center;
+}
+
+.iconeHalter {
+  width: 25px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.beneficio h3 {
+  display: inline;
+  font-size: 20px;
+}
