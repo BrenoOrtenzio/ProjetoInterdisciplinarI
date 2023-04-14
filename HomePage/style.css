@@ -39,17 +39,6 @@ header {
   position: relative;
 }
 
-.TituloImagem::after {
-  content: "CORPO EM FORMA";
-  width: 124px;
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 58%;
-  text-align: center;
-  font-size: 40px;
-}
-
 article {
   grid-column: 1 / -1;
   margin-top: -8px;
@@ -131,7 +120,7 @@ div ul {
   flex-wrap: wrap;
   gap: 16px;
   padding-left: 0px;
-  margin-top: 24px;
+  margin-top: 0px;
   justify-content: center;
 }
 
@@ -141,4 +130,8 @@ div ul li {
 
 div ul li:hover {
   transform: scale(1.1);
+}
+
+.buttonLogIn:hover {
+  cursor: pointer;
 }
