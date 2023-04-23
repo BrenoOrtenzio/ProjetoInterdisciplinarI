@@ -1,0 +1,90 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nome-aluno{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+#dias-malhados{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 45%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#modelos{
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#troca{
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 2%;
+}
+
+.texto-cabecalho{
+    font-weight: bold;
+    margin: 2% 3% 2% 4%;
+}
+
+.botoes-ficha{
+    font-weight: bold;
+    width: 45%;
+    padding: 1.7%;
+    background-color: #EA4545;
+    border: none;
+    margin: 2% 3% 0 3%;
+    border-radius: 6px;
+}
+
+.botoes-ficha:hover{
+    background-color: #b72d2d;
+    cursor: pointer;
+}
+
+body button a{
+    color: white;
+}
+
+body button a:link{
+    text-decoration: none;
+}
+
+#botao-calendario{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+body img{
+    margin-top: 2%;
+    width: 100%;
+}
+
+#botao-agenda{
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+#dia-ficha{
+    width: 50%;
+}
