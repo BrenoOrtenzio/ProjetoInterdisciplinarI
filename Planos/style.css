@@ -1,0 +1,85 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-red {
+  grid-column: 1 / -1;
+  background-color: #ff5a5f;
+  color: white;
+  display: inline;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.bg-red:hover {
+  color: white;
+}
+
+span {
+  color: #fff;
+}
+
+.titulo-bg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ff5a5f;
+}
+
+.container {
+  margin-top: 50px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-2-l-b {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.font-1-xl {
+  color: #fff;
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.cor-5 {
+  color: #fff;
+}
+
+.planos img {
+  width: 80%;
+}
+
+.planos-imagem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.planos-imagem img {
+  grid-area: 1/1;
+}
+
+.planos-imagem p {
+  display: inline-flex;
+  align-items: center;
+}
+
+#divMeio {
+  background: linear-gradient(to right, #fff 30%, #ff5a5f 0%);
+  color: #fff;
+}
+
+.planos-imagem span {
+  position: absolute;
+  background: var(--cor-12);
+  display: inline-block;
+  padding: 8px;
+  background-color: #ff5a5f;
+  border-radius: 0px 4px 4px 0px;
+}
