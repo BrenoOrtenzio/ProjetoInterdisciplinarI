@@ -82,15 +82,12 @@ article {
   object-fit: cover;
 }
 
-.beneficiosTreino {
-  background-color: #fff8f0 !important;
+footer {
+  grid-column: 1 / -1;
 }
 
-.footer {
-  grid-column: 1 / -1;
-  width: 100%;
-  font-weight: bold;
-  height: 30px;
+.beneficiosTreino {
+  background-color: #fff8f0 !important;
 }
 
 .buttonLogIn {
@@ -114,23 +111,7 @@ article {
   grid-column: 1 / -1;
 }
 
-div ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding-left: 0px;
-  margin-top: 0px;
-  justify-content: center;
-}
 
-div ul li {
-  transition: transform 0.3s;
-}
-
-div ul li:hover {
-  transform: scale(1.1);
-}
 
 .buttonLogIn:hover {
   cursor: pointer;
