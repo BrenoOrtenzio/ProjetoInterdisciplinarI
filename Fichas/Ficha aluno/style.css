@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nome-aluno{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+#dias-malhados{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 45%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+.texto-cabecalho{
+    font-weight: bold;
+    margin: 2% 3% 2% 4%;
+}
+
+body button a:link{
+    text-decoration: none;
+}
+
+
+#dia-ficha{
+    width: 50%;
+}
+
+.estapas-exercicios{
+    text-align: center;
+}
+
+.img-exercicio{
+display: flex;
+width: 20%;
+height: 20%;
+left: 12px;
+top: 135px;
+
+background: url(image);
+}
+
+.corpo-exercicio{
+    text-align: center;
+}
+
+.botoes-exercicios{
+    font-weight: bold;
+    width: 15%;
+    padding: 1.7%;
+    background-color: #EA4545;
+    border: none;
+    margin: 2% 3% 0 3%;
+    border-radius: 6px;
+
+}
+
+.botoes-fimFicha{
+    text-align: center;
+    position: ;
+    width: 15%;
+    background-color: #EA4545;
+    border: none;
+    margin: 2% 3% 0 3%;
+    border-radius: 6px;
+
+}
