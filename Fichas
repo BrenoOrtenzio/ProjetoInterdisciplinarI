@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>FICHA</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <header>
+
+    <div id="cabecalho">
+    <div id="dia-ficha">
+        <p class="texto-cabecalho">Ficha do Dia: PEITO/TRÍCEPS</p>
+    </div>
+    <p class="texto-cabecalho" id="diasmalhados"> Dias: 11/05</p>
+    </div> 
+  </header>
+  <body>
+
+  <!------------------------------------------------------>
+<hr>
+<h1 class="estapas-exercicios">AERÓBICO</h1>
+<hr>
+<!------------------------------------------------------>
+
+<div class="container">
+    <img class="img-exercicio" src="https://static.vecteezy.com/ti/vetor-gratis/t2/7126739-icone-de-ponto-de-interrogacao-gratis-vetor.jpg">
+    <div class="container-texto">
+
+        <h3>Tipo de Aeróbico 'esteira'</h3>
+        <p>Tempo  '15 min'</p>
+    </div>
+    <div class="button-container">
+
+        <button>
+            <a>CHECK-IN</a>
+        </button>
+    </div>
+</div>
+
+<!------------------------------------------------------>
+    <hr>
+    <h1 class="estapas-exercicios">MUSCULAÇÃO</h1>
+    <hr>
+<!------------------------------------------------------>
+
+<div class="container">
+    <img class="img-exercicio" src="https://static.vecteezy.com/ti/vetor-gratis/t2/7126739-icone-de-ponto-de-interrogacao-gratis-vetor.jpg">
+        <div class="container-texto">
+            <h3>Nome exercicio: PEITO1</h3>
+            <p>Repetições: 10 </p>
+            <p>Series: 4 </p>
+            <p>Carga: Aumenta</p>
+            <p>Intervalo: 40 segundos</p>
+        </div>
+        <div class="button-container">
+            <button>
+                <a>TUTORIAL</a>
+            </button>
+            <button>
+                <a>CHECK-IN</a>
+            </button>
+    </div>
+</div>
+  <hr>
+  <div class="container">
+      <img class="img-exercicio" src="https://static.vecteezy.com/ti/vetor-gratis/t2/7126739-icone-de-ponto-de-interrogacao-gratis-vetor.jpg">
+      <div class="container-texto">
+          <h3>Nome exercicio: PEITO2</h3>
+          <p>Repetições: 10 </p>
+          <p>Series: 4 </p>
+          <p>Carga: Aumenta</p>
+          <p>Intervalo: 40 segundos</p>
+      </div>
+      <div class="button-container">
+          <button>
+              <a>TUTORIAL</a>
+          </button>
+          <button>
+              <a>CHECK-IN</a>
+          </button>
+      </div>
+  </div>
+  <hr>
+  <div class="container">
+      <img class="img-exercicio" src="https://static.vecteezy.com/ti/vetor-gratis/t2/7126739-icone-de-ponto-de-interrogacao-gratis-vetor.jpg">
+      <div class="container-texto">
+          <h3>Nome exercicio: TRÍCEPS1</h3>
+          <p>Repetições: 10 </p>
+          <p>Series: 4 </p>
+          <p>Carga: Aumenta</p>
+          <p>Intervalo: 40 segundos</p>
+      </div>
+      <div class="button-container">
+          <button>
+              <a>TUTORIAL</a>
+          </button>
+          <button>
+              <a>CHECK-IN</a>
+          </button>
+      </div>
+  </div>
+
+<!------------------------------------------------------>
+    <hr>
+    <h1 class="estapas-exercicios">ABDOMINAL</h1>
+    <hr>
+<!------------------------------------------------------>
+  <div class="container">
+    <img class="img-exercicio" src="https://static.vecteezy.com/ti/vetor-gratis/t2/7126739-icone-de-ponto-de-interrogacao-gratis-vetor.jpg">
+
+    <div class="container-texto">
+        <h3>Nome exercicio: ABDOMINAL</h3>
+        <p>Repetições: 10 </p>
+        <p>Series: 4 </p>
+        <p>Carga: Diminui</p>
+        <p>Intervalo: 40 segundos</p>
+    </div>
+
+
+      <div class="button-container">
+            <button>
+                <a>TUTORIAL</a>
+            </button>
+            <button>
+                <a>CHECK-IN</a>
+            </button>
+      </div>
+  </div>
+
+
+  <!------------------------------------------------------>
+    <hr>
+    <button class="botoes-fimFicha">
+        FICHA CONCLUIDA
+    </button>
+  <br>
+  <!------------------------------------------------------>
+
+ </body>
+</html>
