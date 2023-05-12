@@ -1,0 +1,94 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nome-aluno{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#dias-malhados{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 45%;
+}
+
+.texto-cabecalho{
+    font-weight: bold;
+    margin: 2% 3% 2% 4%;
+}
+
+body button a:link{
+    text-decoration: none;
+}
+
+
+#dia-ficha{
+    width: 50%;
+}
+
+.estapas-exercicios{
+    text-align: center;
+}
+
+.img-exercicio{
+display: flex;
+width: 20%;
+height: 20%;
+left: 12px;
+top: 130px;
+
+
+background: url(image);
+}
+
+
+.botoes-fimFicha{
+    text-align: center;
+    width: 95%;
+    background-color: #EA4545;
+    padding: 2%;
+    border: none;
+    margin: 2% 3% 0 3%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.button-container button {
+  display: flex;
+  right: 600px;
+  width: 300px;
+  height: 65px;
+  background-color: #EA4545;
+  margin: 2% 3% 0 3%;
+  border: none;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  float: right;
+
+}
+
+.container-texto{
+  display: absolute;
+  left 100px;
+}
