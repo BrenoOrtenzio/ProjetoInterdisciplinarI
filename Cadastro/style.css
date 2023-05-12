@@ -58,11 +58,12 @@ input[type="submit"]:hover {
 
 /* Adiciona regras de estilo para telas menores */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 	.container {
 		margin: 20px auto;
 		padding: 10px;
 		max-width: 100%;
+		max-height: 100%;
 	}
 
 	h1 {
@@ -81,4 +82,4 @@ input[type="submit"]:hover {
 		padding: 5px;
 		font-size: 14px;
 	}
-}
+} */

@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <div class="container">
   <form>
     <div class="form-field">
       <div><label>Email</label></div>
@@ -25,12 +26,27 @@
       <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
     </div>
     <div>
-      <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
+      <button type="button" class="solid" id="login-button" disabled="true" onclick="login()" style="background-color: #ff5a5f;
+      color: #fff;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      opacity: 1;">Entrar</button>
     </div>
     <div>
-      <button type="button" class="outline" onclick="register()">Registrar</button>
+      <button onclick="Redirecionar()" type="button" class="outline" onclick="register()" style="background-color: #ff5a5f;
+      color: #fff;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      opacity: 1;">Cadastrar</button>
     </div>
   </form>
+  </div>
 </body>
 
 

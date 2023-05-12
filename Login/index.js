@@ -76,3 +76,7 @@ const form = {
   recoverPasswordButton: () =>
     document.getElementById("recover-password-button"),
 };
+
+function Redirecionar() {
+  window.location.href = "/Cadastro/cadastro.html";
+}

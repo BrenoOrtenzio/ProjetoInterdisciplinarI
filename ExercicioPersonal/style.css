@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .exercicio {
+    position: relative;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagem-exercicio {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .exercicio h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .botoes {
+    display: flex;
+  
+  }
+  .botoes button {
+    margin-left: 10px;
+  }
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .saibaMais {
+    background-color: #ff5a5f
+}
+
+.editar {
+background-color: #4285f4;
+color: #fff;
+margin-left: 10px;
+}
+
+.adicionarExercicio {
+background-color: #ff5a5f;
+color: #fff;
+padding: 10px;
+font-size: 18px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+display: block;
+margin: 20px auto;
+width: 200px;
+}
+
+.exercicio .botoes {
+  position: absolute;
+  top: 50%;
+  bottom: 10%;
+  right: 10px;
+}
+.detalhes-exercicio {
+  flex-grow: 1;
+  margin-left: 10px;
+  /* Restante dos estilos... */
+}
+
+.nome-exercicio {
+  margin: 0;
+  margin-left: 130px;
+}
