@@ -69,8 +69,8 @@ const meses = [
     'Dezembro'
 ];
 
-function RedirecionaAgendaPersonal() {
-    window.location.href = "/AgendaPersonal/index.html";
+function RedirecionaAgendaUsuario() {
+    window.location.href = "/AgendaUsuario/index.html";
   }
 
   function RedirecionaFicha() {

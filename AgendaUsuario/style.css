@@ -56,24 +56,8 @@
     td {
         font-size: 1.2em;
     }
-    .botaoAgendaPersonal {
-        width: 130px;
-        height: 50px;
-          background-color: rgb(240, 127, 127);
-        
-      }
+    
       
-      .botaoCriarFicha {
-        width: 130px;
-        height: 50px;
-          background-color: rgb(240, 127, 127);
-      }
-      
-      .botaoExercicioPersonal {
-        width: 130px;
-        height: 50px;
-          background-color: rgb(240, 127, 127);
-      }
 
     @media screen and (max-width: 768px) {
         .box {
@@ -114,7 +98,6 @@
         transform: rotate(180deg);
       }
      .apagar{
-        left: 140px;
         border-radius: 50px;
         background-color: red;
      }
@@ -123,6 +106,8 @@
         background-color: red;
         left: 20px;
      }
+
+     /* footer */
 
      footer {
         color: #fff;
@@ -208,4 +193,22 @@
       .opcoes {
         display: flex;
         justify-content: space-between;
+      }
+      .botaoAgendaPersonal {
+        width: 130px;
+        height: 50px;
+          background-color: rgb(240, 127, 127);
+        
+      }
+      
+      .botaoCriarFicha {
+        width: 130px;
+        height: 50px;
+          background-color: rgb(240, 127, 127);
+      }
+      
+      .botaoExercicioPersonal {
+        width: 130px;
+        height: 50px;
+          background-color: rgb(240, 127, 127);
       }
