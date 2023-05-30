@@ -108,6 +108,10 @@
      }
 
      /* footer */
+     footer-container{
+      display: flex;
+      justify-content: space-between;
+    }
 
      footer {
         color: #fff;

@@ -9,3 +9,7 @@ function RedirecionaAgendaPersonal() {
   function RedirecionaExercicioPersonal() {
     window.location.href = "/ExercicioPersonal/index.html";
   }
+
+function RedirecionaAdicionarExercicio(){
+window.location.href = "/ExercicioPersonal/AdicionarExercicio.html";
+}
